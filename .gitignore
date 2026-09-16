@@ -1,0 +1,33 @@
+# Сборка CMake (артефакты компиляции)
+/build/
+/build_win/
+/out/
+
+# Файлы сред разработки (IDE)
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+*.filters
+*.dir/
+*.Debug/
+*.Release/
+
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Временные файлы операционной системы
+Thumbs.db
+Desktop.ini
+
+# Исполняемые файлы и библиотеки (на Windows)
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.ilk
